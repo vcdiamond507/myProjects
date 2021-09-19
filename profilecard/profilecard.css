@@ -1,0 +1,152 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container::before
+{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url("images/aedrian-HishOcBkgfA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px);
+}
+
+.container
+{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card
+{
+    position:relative;
+    display: flex;
+    align-items: center;
+    height: 250px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 black;
+    background-image: linear-gradient(135deg, rgb(102, 41, 41), rgb(46, 46, 116));
+    transition: 0.5s;
+}
+.card .content
+{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 65%;
+    padding: 10px 5px;
+    margin-left: 20%;
+    opacity: 0;
+    transition: 0.5s;
+}
+.card .content .name
+{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: yellow;
+    font-style: italic;
+}
+.card ul
+{
+    margin-top: 10px;
+}
+.card ul li
+{
+    list-style: none;
+    margin: 5px 0px;
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.card ul li span
+{
+    font-weight: 900;
+    font-size: 18px;
+    color: rgb(32, 243, 4);
+    padding-right: 5px;
+    letter-spacing: 1px;
+    font-style: normal;
+}
+
+
+
+
+.card .content a
+{
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-style: italic;
+    background-color: rgb(66, 61, 61);
+    box-shadow: 0 0 10px 0 yellow;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+img
+{
+    position: absolute;
+    bottom: 0px;
+    left: 30%;
+    height: 250px;
+    width: 290px;
+    transition: 0.5s;
+    
+}
+.p220
+{
+    left: 35%;
+    bottom: 10px;
+height: 200px;
+width: 240px;
+}
+.card:hover
+{
+    width: 500px;
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0,
+                0 0 40px 0,
+                0 0 60px 0 yellow;    
+}
+.card:hover img
+{
+    left: 55%;
+    height: 280px;
+    width: 300px;
+}
+.card:hover .p220
+{
+    height: 230px;
+    width: 250px;
+}
+
+.card:hover .content
+{
+    opacity: 1;
+    margin-left: 2px;
+    transition: 0.5s;
+}
