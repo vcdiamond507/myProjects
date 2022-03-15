@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Last Project</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/all.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/4e2c7ef5ef.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  
+</head> 
+<style>
+   .secondcolmn
+   {
+       background-image: url( images/xan-griffin-IM8AJKDavbk-unsplash.jpg);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+   
+    
+   }
+   .cardfirst
+   {
+       background-color: rgb(241, 240, 240);
+       height: 40px;
+       width: 220px;
+       padding-top: 5px;
+       padding-left: 5px;
+
+       
+   }
+   .containerfirst
+   {
+       background-color:rgb(213, 212, 212);
+       height: 400px;
+       width: 680px;
+     
+   }
+   .firstcln
+   {
+       padding-left: 19%;
+   }
+   .pr
+   {
+     padding-left: 0px;
+       padding-right: 5px;
+   }
+   .cardsecond
+   {
+       background-color: rgb(90, 90, 90);
+       width: 225px;
+       height: 125px;
+       text-align:center;
+       padding-top: 15%;
+       font-size: 35px;
+      
+   }
+   .firstspan
+   {
+       font-size: 18px;
+       font-family:monospace;
+   }.secondspan
+   {
+       font-size: 10px;
+   }
+   .discover
+   {
+       color: white;
+       font-size: 8px;
+       font-style: italic;
+   }
+   .destination
+   {
+       color: white;
+       font-style: italic;
+       font-size: 13px;
+   }
+   .viewallbtn
+   {
+       font-size: 13px;
+       height: 40px;
+       width: 100px;
+       border: 0.01rem solid rgb(160, 153, 153);
+       background: transparent;
+   }
+   .viewallbtn:focus
+    {
+        outline: none;
+    }
+   .firstbox
+   {
+       background-image: url(images/ganapathy-kumar-L75D18aVal8-unsplash.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       margin-top: 10px;
+       padding-bottom: 100px;
+   }
+   .btnf
+   {
+       height: 50px;
+       padding-bottom: 20px;
+       background: transparent;
+       border: 0px;
+       font-size: 13px;
+       font-style: italic;
+       margin-right: 25px;
+       transition: 1s;
+   }
+    .btnf:hover
+    {
+        background-color: green;
+        height: 50px;
+        transition: 1s;
+    }
+    .btnf:focus
+    {
+        outline: none;
+    }
+    .btns 
+    {
+        height: 50px;
+       padding-bottom: 20px;
+       background: transparent;
+       border: 0px;
+       font-size: 13px;
+       border-right: 1px solid white;
+       margin-left: 55px;
+       padding-right: 65px;
+    }
+    .btns:focus
+    {
+        outline: none;
+    }
+   
+    .flight
+    {
+        color: white;
+    }
+    .flights
+    {
+        color: white;
+        font-size: 25px;
+    }
+    .cardf 
+    {
+        background-color: rgb(236, 236, 236);
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: 4px solid green;
+        padding-top: 10px;
+    }
+    .btnt
+    {
+        background-color: white;
+        border: 0px;
+        height: 50px;
+    }
+    .btnt:focus
+    {
+        outline: none;
+    }
+    .destinations
+    {
+       color: green;
+       font-style: normal;
+       font-weight: 500;
+       font-size: 15px;
+       border-bottom: 2px dotted rgb(13, 221, 13);
+    }
+    .date
+    {
+        border: 0px;
+        background-color: white;
+        width: 130px;
+        height: 10px;
+        color: transparent;
+        font-size: 12px;
+        color: green;
+    }
+    .date:focus
+    {
+        outline: none;
+        color: green;
+    }
+    .select
+    {
+        background-color: white;
+        border: transparent;
+        height: 49px;
+        width: 90px; 
+        color: green; 
+        font-weight: 500;        
+    }
+    .select:focus
+    {
+        outline: none;
+    }
+   
+</style>
+<body>
+    <div class="row">
+        <div class="col-md-12 firstbox" >
+            <div class="row" style="padding-left: 480px;">
+                <button class="btnf">HOME <i class="fas fa-caret-down"></i></button>
+                <button class="btnf">PAGE <i class="fas fa-caret-down"></i></button>
+                <button class="btnf">HOTEL <i class="fas fa-caret-down"></i></button>
+                <button class="btnf">FLIGHT <i class="fas fa-caret-down"></i></button>
+                <button class="btnf">CAR <i class="fas fa-caret-down"></i></button>
+                <button class="btnf">PACKAGE <i class="fas fa-caret-down"></i></button>
+                <button class="btnf">CRUISES <i class="fas fa-caret-down"></i></button>
+                <button class="btnf">TOURS <i class="fas fa-caret-down"></i></button>
+            </div>
+            <div class="row"  style="margin-top: 80px;">
+                <div class="col-md-12" style="text-align: center;">
+                    <button class="btns" data-toggle="tab" href="#flight"><span class="flight">Flight  <br><span class="flights"><i class="fas fa-plane-departure"></i> </span></span></button>
+                    <button class="btns" data-toggle="tab" href="#hotel"><span class="flight">Hotel <br><span  class="flights"><i class="fas fa-hotel"></i> </span></span></button>
+                    <button class="btns" data-toggle="tab" href="#car"><span class="flight">Car <br><span  class="flights"><i class="fas fa-car"></i> </span></span></button>
+                    <button class="btns" data-toggle="tab" href="#package"><span class="flight">Package Deals <br><span  class="flights"><i class="fas fa-suitcase"></i> </span></span></button>
+                    <button class="btns" data-toggle="tab" href="#cruise"><span class="flight">Cruise <br><span  class="flights"><i class="fas fa-ship"></i> </span></span></button>
+                    <button class="btns" data-toggle="tab" href="#tour" style="border-right: 0px;"><span class="flight">Tour <br><span  class="flights"><i class="fas fa-umbrella-beach"></i></span></span></button>
+                    
+                </div>
+            </div><br>
+            
+
+            <div class="tab-content">
+                <div class="tab-pane fade show active " id="flight">
+                 <div class="row">
+                     <div class="col-md-12" >
+                         <div class="card cardf">
+                             <span style="font-size: 25px;">Where would you like to go?</span>
+                            <div class="row" >
+                               <div class="col-md-12" style="text-align: center; padding-top: 10px; padding-bottom: 10px;">
+                                <button class="btnt"> <span class="destinations">Destination<input type="text" placeholder="country,city,airport,area,landmark" style="border: 0px; font-size: 15px; width: 250px; height: 13px; outline: none;"> </span> </button>
+                                <button class="btnt"> <span class="destinations">Date of Departure   <input type="date" class="date"></span></button>
+                                <button class="btnt"> <span class="destinations">Date of Return   <input type="date" class="date"></span></button>
+                                <button class="btnt"> <span class="destinations">Search  &nbsp &nbsp&nbsp&nbsp&nbsp<i class="fas fa-search"></i></span></button>
+                               </div>
+                            </div>
+                         </div>
+                     </div>
+                 </div>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane fade " id="hotel">
+                 <div class="row">
+                     <div class="col-md-12" >
+                         <div class="card cardf">
+                             <span style="font-size: 25px;">Where would you like to go?</span>
+                            
+                            <div class="row" >
+                               <div class="col-md-12" style="text-align: center; padding-top: 10px; padding-bottom: 10px;">
+                                <button class="btnt"> <span class="destinations">Destination<input type="text" placeholder="country,city,airport,area,landmark" style="border: 0px; font-size: 15px; width: 250px; height: 13px; outline: none;"> </span> </button>
+                                <button class="btnt"> <span class="destinations">Check in <input type="date" class="date"></span></button>
+                                <button class="btnt"> <span class="destinations">Check out   <input type="date" class="date"></span></button>
+                               <select class="select">
+                                   <option selected >Guest</option>
+                                   <option>Pallvi Ranjha</option>
+                                   <option>Vineet Chauhan</option>
+                                   <option>Suman Negi</option>
+                                   <option>Shubham Ghunta</option>
+                                   <option>Gulshan</option>
+                                   <option>Manish Kumar</option>
+                                   <option>Meenakshi</option>
+                                   <option>Karishma</option>
+                                   <option>Kritika Chauhan</option>
+                                   <option>Poonam Thakur</option>
+
+                               </select>
+                                <button class="btnt"> <span class="destinations">Search  &nbsp &nbsp&nbsp&nbsp&nbsp<i class="fas fa-search"></i></span></button>
+                               </div>
+                            </div>
+                         </div>
+                     </div>
+                 </div>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane fade  " id="car">
+                 <div class="row">
+                     <div class="col-md-12" >
+                         <div class="card cardf">
+                             <span style="font-size: 25px;">Where would you like to go?</span>
+                            <div class="row" >
+                               <div class="col-md-12" style="text-align: center; padding-top: 10px; padding-bottom: 10px;">
+                                <button class="btnt"> <span class="destinations">From<input type="text" placeholder="country,city,airport,area,landmark" style="border: 0px; font-size: 15px; width: 250px; height: 13px; outline: none;"> </span> </button>
+                                <button class="btnt"> <span class="destinations">Destination<input type="text" placeholder="country,city,airport,area,landmark" style="border: 0px; font-size: 15px; width: 250px; height: 13px; outline: none;"> </span> </button>
+                                <button class="btnt"> <span class="destinations">Search  &nbsp &nbsp&nbsp&nbsp&nbsp<i class="fas fa-search"></i></span></button>
+                            </div>
+                            </div>
+                         </div>
+                     </div>
+                 </div>
+                </div>
+            </div>
+
+
+            
+        </div>
+       
+    </div>
+    <div class="row" style="background-color: rgb(196, 196, 196);">
+        <div class="col-md-12">
+            &nbsp
+        </div>
+     </div>
+
+
+       
+
+
+
+
+
+
+
+
+    <div class="row" style="height: 100px;">
+        <div class="col-md-6" style="padding-left: 18%; padding-top: 35px;">
+            <span style="font-weight: 400; font-size: 20px;">Top Travel Destinations</span>
+        </div>
+        <div class="col-md-6"  style="padding-left: 26%; padding-top: 35px;">
+            <button class="viewallbtn">View all <span style="margin-left: 10px; color: green; font-size: 15px;"><i class="fas fa-long-arrow-alt-right"></i></span></button>
+        </div>
+    </div>
+    <div class="row secondcolmn">
+        <div class="col-md-4 firstcln">
+            <div class="row" style="margin-top: 30px;">
+                <span class="discover">Discover</span>
+            </div>
+            <div class="row">
+                <span class="destination"><span style="color: white; font-size: 23px; font-style: italic;">3</span> Destinations</span>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+                <span class="discover">With</span>
+            </div> <div class="row">
+                <span class="destination"><span  style="color: white; font-size: 23px; font-style: italic;">3</span> Pakages</span>
+            </div>
+            <div class="row"  style="margin-top: 10px;">
+                
+               <div class="card cardfirst" >
+                <span><i class="fas fa-map-marker-alt"></i>  <span style="font-size: 13px">Recomendation for you</span></span>
+               </div>
+            </div>
+            <div class="row"  style="margin-top: 15px; padding-bottom: 10px; border-bottom: 1px solid white;">
+                <span class="destination"><i class="fas fa-map-marker-alt"></i>  <span>AndharPradesh</span></span>
+            </div>
+            <div class="row"  style="margin-top: 15px;  padding-bottom: 10px; border-bottom: 1px solid white;">
+                <span class="destination"><i class="fas fa-map-marker-alt"></i>  <span>ArunachalPradesh</span></span>
+            </div>
+            <div class="row"  style="margin-top: 15px;  padding-bottom: 10px; border-bottom: 1px solid white;">
+                <span class="destination"><i class="fas fa-map-marker-alt"></i>  <span>Assam</span></span>
+            </div>
+            <div class="row"  style="margin-top: 15px;  padding-bottom: 10px; border-bottom: 1px solid white;">
+                <span class="destination"><i class="fas fa-map-marker-alt"></i>  <span>Bihar</span></span>
+            </div>
+            
+           
+    
+
+               
+      
+           
+              
+               
+
+        </div>
+        <div class="col-md-6">
+            <div class="container containerfirst">
+
+              <div class="row"  style="padding-top: 13px;">
+                  <div class="col-md-4">
+                      <span class="firstspan">London-UK</span>
+                       <p class="secondspan"><b>1289</b> Properties</p>
+                  </div>
+                  <div class="col-md-4">
+                    <span class="firstspan">Paris-France</span>
+                    <p  class="secondspan">125properties</p>
+                  </div>
+                  <div class="col-md-4">
+                    <span class="firstspan">Rome-Italy</span>
+                    <p  class="secondspan">2561properties</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 pr">
+                        <div class="card cardsecond">290*180</div>
+                    </div>
+                    <div class="col-md-4 pr">
+                        <div class="card cardsecond">290*180</div>
+                    </div>
+                    <div class="col-md-4 pr">
+                        <div class="card cardsecond">290*180</div>
+                    </div>
+                  </div><br>
+                  
+                  <div class="row">
+                    <div class="col-md-4">
+                        <span class="firstspan">Barcelona-Spain</span>
+                        <p  class="secondspan">2556properties</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="firstspan">Madrid-Spain</span>
+                        <p  class="secondspan">2855properties</p>
+                    </div>
+                 
+                 
+                    <div class="col-md-4">
+                        <span class="firstspan">Vienna-Austira</span>
+                        <p  class="secondspan">355properties</p>
+                    </div>
+                 
+                 
+                </div>
+
+                  <div class="row">
+                    <div class="col-md-4 pr">
+                        <div class="card cardsecond">290*180</div>
+                    </div>
+                    <div class="col-md-4 pr">
+                        <div class="card cardsecond">290*180</div>
+                    </div>
+                    <div class="col-md-4 pr">
+                        <div class="card cardsecond">290*180</div>
+                    </div>
+                  
+                  </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+           
+        </div>
+
+    </div>
+
+    
+
+    </body>
+    </html> 

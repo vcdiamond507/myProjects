@@ -1,0 +1,132 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-row::before
+{
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.aadhar-card-section
+{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-section
+{
+    height: 35%;
+    width: 55%;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: .50rem;
+    opacity: 0;
+    transition: 2s;
+}
+
+.after-click
+{
+    transform: rotate(360deg);
+    opacity: 1;
+    transition: 2s;
+}
+
+.first-section
+{
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+
+}
+.firstlogo
+{
+  background-image: url('logo.png');
+  background-position: center;
+  background-size: 30px;
+  background-repeat: no-repeat;
+   height: 100%;
+   width: 25%;
+}
+.secondlogo
+{
+  background-image: url('Screenshot 2022-02-20 220625.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 100%;
+   width: 75%;
+}
+
+.second-section
+{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    display: flex;
+    margin-top: 10px;
+    padding: 0px;
+    justify-content: center;
+    border-bottom: 3px solid rgb(187, 31, 31);
+}
+
+.container
+{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+#photo 
+{
+   height: 100%;
+   width: 70px;
+   border: 2px solid black;
+}
+.details
+{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items:baseline;
+    flex-direction: column;
+}
+#code 
+{
+   height: 60px;
+   width: 60px;
+}
+
+.third-section
+{
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.input  
+{
+    margin-bottom: 15px;
+}

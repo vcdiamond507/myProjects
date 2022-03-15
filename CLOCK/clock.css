@@ -1,0 +1,58 @@
+#Container
+{
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+    background-image: url(images/download.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+#hour
+{
+    width: 7px;
+    height: 110px;
+    background-color: black;
+    position: absolute;
+    top: 143px;
+    left: 246px;
+    border-radius: 0.50rem;
+    transform-origin: bottom;
+  
+}
+#minute
+{
+    width: 5px;
+    height: 138px;
+    background-color: black;
+    position: absolute;
+    top: 115px;
+    left: 247px;
+    border-radius: 0.50rem;
+    transform-origin: bottom;
+
+    
+}
+#second
+{
+       width: 3px;
+    height: 200px;
+    background-color:rgb(155, 9, 9);
+    position: absolute;
+    top: 52px;
+    left: 248px;
+    border-radius: 0.50rem;
+    transform-origin: bottom;
+}
+#dumb
+{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 234px;
+    left: 232px;
+}

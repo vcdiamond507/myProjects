@@ -1,0 +1,417 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+/* Left Section */
+.left   
+{
+    position: relative;
+    height: 100%;
+    width: 35%;
+   background-color: rgb(22, 47, 95);
+   box-shadow: 0px 0px 20px 2px black;
+}
+
+/* Profile Section */
+
+.left .profile
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: solid 2px rgb(79, 132, 245);
+}
+.left .profile img
+{
+    position: relative;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: solid 3px rgb(51, 51, 119) ;
+    box-shadow: 0px 0px 20px 2px black;
+}
+.left .profile .name
+{
+    font-size: 25px;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(233, 231, 231);
+    letter-spacing: 2px;
+}
+.left .profile span
+{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(199, 196, 196);
+    letter-spacing: 1px;
+}
+
+/* Contact Section*/
+.contact    
+{
+    margin: 10px;
+    border-bottom: solid 2px rgb(79, 132, 245);
+}
+.contact .cpartation
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.contact .cpartation .icons
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    height: 100%;
+    width: 30%;
+}
+.contact .cpartation .icons span
+{
+ font-size: 20px;
+ font-style: italic;
+ font-weight: 700;
+ text-decoration: underline;
+ color: rgb(226, 207, 207);
+ letter-spacing: 2px;
+}
+
+.contact .cpartation .details
+{
+    display: flex;
+    flex-direction: column;
+   padding-left: 50px;
+   line-height: 40px;
+    height: 100%;
+    width: 70%;
+}
+.contact .cpartation .details span
+{
+    color: rgb(241, 235, 235);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+/* Education Section */
+
+.education
+{
+    margin: 10px;
+    border-bottom: solid 2px rgb(79, 132, 245);
+}
+.education .equalification
+{
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.language
+{
+      font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.education .partation
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.education .partation .year
+{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+}
+.education .partation .year span
+{
+ font-size: 20px;
+ font-style: italic;
+ font-weight: 700;
+ text-decoration: underline;
+ color: rgb(226, 207, 207);
+ letter-spacing: 2px;
+}
+.education .partation .classes
+{
+    display: flex;
+   padding-left: 50px;
+    height: 100%;
+    width: 70%;
+}
+.education .partation .classes ul
+{
+    line-height: 30px;
+}
+.education .partation .classes ul li 
+{
+    list-style: none;
+    color: rgb(241, 235, 235);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* Languages*/
+.languages
+{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.languages .language1
+{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.languages .language2
+{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.languages span
+{
+    font-size: 20px;
+ font-style: italic;
+ font-weight: 700;
+ color: rgb(226, 207, 207);
+ letter-spacing: 2px;
+}
+
+/* Right Side*/
+
+/* Profile Section*/
+.right
+{
+    height: 100%;
+    width: 65%;
+    background-color: rgb(44, 63, 102); 
+}
+.right .aboutprofile
+{
+padding: 10px 20px;
+}
+.right .aboutprofile .equalification
+{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.right .aboutprofile p
+{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+/* Skills Portion */
+
+
+/* Work experience  Poriton*/
+.education .partation .classes .office 
+{
+    font-size: 15px;
+    color: black;
+}
+.experience
+{
+    margin-top: 10px;
+    border-bottom: none;
+}
+
+/* Declaration Secttion*/
+
+.right .declaration
+{
+padding: 10px 20px;
+}
+ .declaration .declaration1
+{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.declaration  p
+{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+.sign
+{
+    margin-top: 162px;
+    display: flex;
+    justify-content:space-between;
+    padding: 17px 50px;
+}
+.date   
+{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+.name
+{
+    font-size: 25px;
+    font-weight: 800;
+    font-style: italic;
+    color: white;
+}
+
+
+
+
+/* Media Quary*/
+
+@media only screen and (max-width: 1000px) 
+{
+    *
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    body
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px;
+}
+.left   
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+   background-color: rgb(22, 47, 95);
+   box-shadow: 0px 0px 20px 2px black;
+}
+.left .profile span
+{
+    font-size: 15px;
+}
+.education .equalification
+{
+    font-size: 20px;
+}
+.aboutprofile .equalification
+{
+    font-size: 20px;
+}
+.declaration .declaration1
+{
+    font-size: 20px;
+}
+.language
+{
+    font-size: 20px;
+}
+.right
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(44, 63, 102); 
+}
+.languages
+{
+    margin:10px 50px;
+    display: flex;
+}
+.languages .language1
+{
+    width: 40%;
+    display: block;
+}
+.contact .cpartation .icons
+{
+    width: 20%;
+}
+.contact .cpartation .icons span
+{
+ font-size: 15px;
+}
+.contact .cpartation .details
+{
+    width: 80%;
+}
+.contact .cpartation .details span
+{
+    font-size: 15px;
+}
+.education .partation .year span
+{
+ font-size: 15px;
+}
+.education .partation .classes ul li 
+{
+    font-size: 15px;
+}
+.languages
+{
+    margin: 20px 2px;
+    display: flex;
+    justify-content: center;
+}
+.languages .language1
+{
+    width: 25%;
+    display: block;
+}
+.languages .language2
+{
+    width: 65%;
+}
+.languages span
+{
+    font-size: 15px;
+}
+.sign
+{
+    padding: 17px 10px;
+}
+.date   
+{
+    font-size: 15px;
+}
+.name
+{
+    font-size: 20px;
+}
+.right .aboutprofile p
+{
+    font-size: 16px;
+}
+.declaration  p
+{
+    font-size: 16px;
+}
+}
