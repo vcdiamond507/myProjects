@@ -11,9 +11,8 @@
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/4e2c7ef5ef.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-  
-</head>
-<style>
+  <style>
+    
     body
     {
         background-color: rgb(233, 230, 230);
@@ -95,7 +94,9 @@
   }
  
 }
- </style>
+
+  </style>
+</head>
 <body>
 
 <div class="container" > 
@@ -198,9 +199,9 @@
                   <div class="row" style="padding-top: 150px;" >
                     <div class="card cardsecond">
                         <form > 
-                            <input class="form-control username" type="text" placeholder="User name" style=" box-shadow:  0 0 5px 0 rgba(66, 65, 65, 0.904);"><br>
-                            <input class="form-control  username" type="password"  placeholder="Password" style=" box-shadow:  0 0 5px 0 rgba(66, 65, 65, 0.904);"><br>
-                           <a href="facebookhome.html" target="_blank"><button class="form-control" type="button" style=" box-shadow:  0 0 5px 0 rgba(66, 65, 65, 0.904);background-color: rgb(40, 101, 233); color: white; height: 50px; font-weight: bold;" >Log In</button></a>
+                            <input class="form-control username" id="username" type="text" placeholder="User name" style=" box-shadow:  0 0 5px 0 rgba(66, 65, 65, 0.904);"><br>
+                            <input class="form-control  username" id="password" type="password"  placeholder="Password" style=" box-shadow:  0 0 5px 0 rgba(66, 65, 65, 0.904);"><br>
+                           <button class="form-control" id="loginbtn" onclick="loginfunction()" type="button" style=" box-shadow:  0 0 5px 0 rgba(66, 65, 65, 0.904);background-color: rgb(40, 101, 233); color: white; height: 50px; font-weight: bold;" >Log In</button>
                            <a href="forgetpassword.html"> <span style="color: rgb(32, 81, 241);"> forget password?</span></a>
                            <br><br><button class="btn btn-success" type="button" data-toggle="modal" data-target="#secondimage" style=" box-shadow:  0 0 5px 0 rgba(66, 65, 65, 0.904); height: 40px; background-color: rgb(67, 177, 57); border-radius: 0.25rem; color:white;">
                                 <span style="font-size: 15px; font-weight: bold;">&nbsp&nbspCreate New Account&nbsp&nbsp</span></button><br>&nbsp           
@@ -213,6 +214,8 @@
              </div>
        </div>
  </div>
+
+
  <div class="modal fade" id="secondimage"role="dialog">
   <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -317,6 +320,7 @@ $(document).ready(function(){
   });
 });
 </script>
+<script src="working.js"></script>
 
 
 </body>

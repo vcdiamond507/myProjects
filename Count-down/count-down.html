@@ -4,30 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="count-down.css">
-    <title>Document</title>
-    <style>
-        p {
-          text-align: center;
-          font-size: 60px;
-          margin-top: 0px;
-        }
-        </style>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>Count-down</title>
+  
     </head>
     <body>
     
     <!-- <p id="demo"></p> -->
-    <div class="mainbox">  
+    <!-- <div class="mainbox">  
     <div class="time" ><span class="time-digits" id="days"> 365</span><span class="left-time">Days</span></div>
     <div class="time"><span class="time-digits" id="hours">15</span><span class="left-time">Hours</span></div>
     <div class="time" ><span class="time-digits" id="minutes">56</span><span class="left-time">Minutes</span></div>
     <div class="time" ><span class="time-digits" id="seconds">23</span><span class="left-time">Seconds</span></div>
-    </div>
+    </div> -->
+  
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+          <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+            <div class="w-full sm:p-4 px-4 mb-6">
+              <h1 class="title-font font-medium text-xl mb-2 text-gray-900">Think About It</h1>
+              <div class="leading-relaxed">We haven't talked to each other for so long</div>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900 " id="days">2.7K</h2>
+              <p class="leading-relaxed">Days</p>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900" id="hours">1.8K</h2>
+              <p class="leading-relaxed">Hours</p>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900" id="minutes">35</h2>
+              <p class="leading-relaxed">Minutes</p>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900" id="seconds">4</h2>
+              <p class="leading-relaxed">Seconds</p>
+            </div>
+          </div>
+          <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+            <img class="object-cover object-center w-full h-full" src="https://www.speeli.com/wp-content/uploads/2020/05/Why-some-people-dont-like-to-talk-.jpg" alt="stats">
+          </div>
+        </div>
+      </section>
 
-    <div class="imgbox">
-        <div class="img-container" id="img-container"></div>
-    </div>
-    
+
+
+
+
 
 
 

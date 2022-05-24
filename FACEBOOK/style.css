@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    height: 56px;
+    width: 100vw;
+    box-shadow: 0px 0px 15px 2px rgb(131, 131, 131);
+}
+
+.left-header {
+    width: 30%;
+    max-height: 56px;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.fb-logo {
+    height: 40px;
+    width: 40px;
+}
+
+.search-bar {
+    height: 40px;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    margin-left: 7px;
+    padding-left: 0.9rem;
+    background-color: #F0F2F5;
+}
+.search-icon {
+   font-weight: bold;
+   color:#828282;
+}
+.search
+{
+    color:#828282;
+    padding-left: 0.4rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+
+.center-header {
+    width: 40%;
+    max-height: 56px;
+    display: flex;
+    padding: 0px 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-icon-section
+{
+    height: 56px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.main-icons
+{
+    color:#828282;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.right-header {
+    width: 30%;
+    max-height: 56px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 1.5rem;
+}
+.right-icons-section
+{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: #E4E6EB;
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-icons
+{
+    font-weight: bold;
+}
+
+/* main section */
+.main-section 
+{
+    width: 100vw;
+    height: 92vh;
+    max-height: 92vh;
+    display: flex;
+    background-color: #F0F2F5;
+}
+.left-main {
+    width: 30%;
+    height: 92vh;
+    padding-left: 1rem;
+    overflow: auto;
+}
+.left-details
+{
+    width: 20.5rem;
+    height: 100%;
+   
+}
+.id-details
+{
+    width: 20.5rem;
+    height: 27.5rem;
+    padding-top: 1.1rem;
+    border-bottom: 1px solid #BCC0C4;
+}
+.id-details-section
+{
+    width: 20.5rem;
+    height: 2.9rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.id-logo
+{
+    height: 35px;
+    width: 35px;
+    margin-right: 0.9rem;
+    border-radius: 50%;
+    
+}
+.id-text
+{
+    font-weight: 700;
+    font-size: 15px;
+    color: #1c1e21;
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.game-details
+{
+    width: 20.5rem;
+    height: 16rem;
+    margin-top: 0.2rem;
+}
+.game-details-section
+{
+    width: 20.5rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.1rem;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+.game-logo
+{
+    height: 35px;
+    width: 35px;
+    margin-right: 0.9rem;
+    border-radius: 10%;  
+}
+.term-conditions
+{
+    width: 20.5rem;
+    height: 3rem;
+    margin-top: 0.2rem;   
+}
+.term-btn
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 10px;
+    width: auto;
+}
+.term-btn a 
+{
+    text-decoration: none;
+    color: #65676B;
+    font-size: 13px;
+}
+.dot 
+{
+    color: #65676B; 
+}
+
+
+
+
+
+
+.center-main {
+    width: 40%;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    background-color: blue;
+}
+.right-main {
+    width: 30%;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    background-color: yellow;
+}

@@ -1,0 +1,159 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg, green, blue);
+}
+.maindiv
+{
+    height: 95vh;
+    width: 22%;
+    background-color: whitesmoke;
+}
+.header
+{
+    width: 100%;
+    height: 25px;
+    display: flex;
+}
+.leftheader
+{
+    height: 25px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.leftheader .time
+{
+ font-weight: 600;
+ margin-left: 15px;
+ color: gray;
+ font-size: small;
+}
+.leftheader .lefticons
+{
+margin-left: 8px;
+color: rgb(92, 91, 91);
+}
+.rightheader
+{
+    height: 25px;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.rightheader .righticons
+{
+margin-right: 6px;
+color: rgb(92, 91, 91);
+}
+
+
+.afterheader
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.leftah
+{
+    height: 50px;
+    width: 20%;
+    display: flex;
+    align-items: center;   
+}
+.rightah
+{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.left
+{
+   
+    color: green;
+    font-size: 14px;
+    padding: 8px 15px;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+}
+.right
+{
+    background-color: rgb(29, 29, 29);
+    color: rgb(219, 219, 219);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 13px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.content-section
+{
+    width: 100%;
+    height: 79%;
+    overflow: hidden;
+    background-color: rgb(223, 223, 223);
+
+}
+
+.inside-content
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    margin-top: 18px;
+}
+.artical-numbers
+{
+    color: rgb(43, 42, 42);
+    font-weight: bold;
+    font-size: 19px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.artical-name
+{
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 400;
+}
+
+
+
+
+
+.back-icon-normal
+{
+    width: 100%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back-icon-bold
+{
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 1px gray;
+}

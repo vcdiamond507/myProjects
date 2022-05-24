@@ -1,0 +1,111 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main-section
+{
+     min-height: 100vh;
+    max-height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.left-div   
+{
+    min-height: 100vh;
+    max-height: 100vh;
+    width: 35%;
+   border-right: solid 1px green;  
+}
+.right-div   
+{
+    min-height: 100vh;
+    max-height: 100vh;
+    width: 65%;
+}
+.top-col
+{
+    padding: 10px 16px;
+    background-color: #202c33;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    width: 50%;
+}
+.search-box
+{
+    width: 100%;
+    height:35px;
+    background-color: #202c33;
+    align-items: center;
+    margin: 6px 0px;
+    border-radius: .50rem; 
+    padding: 0px 15px;
+}
+
+::placeholder
+{
+    color: #8696a0;
+    font-size: 14px;
+}
+
+.contact-section
+{
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
+    background-color: #0a1014;
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    background-color: #0a1014;
+  width: 8px;
+  height: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #202c33; 
+  }
+.contact-dp
+{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px; 
+}
+
+.top-col-status
+{
+    padding: 10px 16px;
+    background-color: #202c33;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main-dp
+{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.top-left-icons 
+{
+    color: #aebac1;
+    margin-top: 10px;
+    margin: 16px;
+    font-size: 17px;
+}
+.chat-section
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Images/chat-area.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
